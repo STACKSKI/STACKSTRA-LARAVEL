@@ -2,11 +2,18 @@
     "$schema": "https://getcomposer.org/schema.json",
     "name": "stackski/stackstra-laravel",
     "description": "Laravel service provider bridge for the Stackstra PHP helper library.",
+    "version": "1.0.0",
     "type": "library",
     "license": "MIT",
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/STACKSKI/STACKSTRA"
+        }
+    ],
     "require": {
         "php": "^8.5",
-        "stackski/stackstra": "^1.0",
+        "stackski/stackstra": "dev-master",
         "illuminate/support": "^11.0|^12.0"
     },
     "autoload": {
