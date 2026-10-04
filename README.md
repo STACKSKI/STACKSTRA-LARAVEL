@@ -3,7 +3,7 @@
 A service provider that integrates [STACKSTRA](https://github.com/stackski/stackstra), a standalone PHP helper library, with Laravel.
 
 - **Namespace:** `Stackstra\Laravel\`
-- **Requires:** PHP ^8.5, Laravel 11.x or 12.x
+- **Requires:** PHP ^8.5, Laravel 11.x, 12.x or 13.x
 - **Install:** `composer require stackski/stackstra-laravel`
 
 ## What it does
