@@ -28,30 +28,6 @@ return [
 ];
 ```
 
-## Usage
-
-Resolve the lock from the container:
-
-```php
-use Stackstra\Lock\Lock;
-
-$lock = app(Lock::class);
-
-if ($lock->lock())
-{
-    try
-    {
-        // Only one process runs this at a time
-    }
-    finally
-    {
-        $lock->unlock();
-    }
-}
-```
-
-You can also type-hint `Lock` in a controller, job, or command, and Laravel will inject the same singleton.
-
 ## About
 
 Maintained by [STACKSKI Inc.](https://stackski.com), an IT consulting and Laravel web development company. Visit us at [stackski.com/laravel](https://stackski.com/laravel) (US) or [stackski.ca/laravel](https://stackski.ca/laravel) (Canada).
